@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.js">
+    <title>SHOPPING CART</title>
+    <style>
+        .red{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container bg-info py-5 ">
+        <div class="row ">
+           <h1 class="col-sm-10 text-center">ESHOP CART WIDGET</h1>
+           <div class="container col-sm-10 shoping-total bg-light rounded-lg my-2">
+                <p>shopping bag total : $<span>0</span></p>
+           </div>
+           <div class=" row col-sm-10 choping mx-auto rounded-lg bg-primary my-2">
+                <div class="col items1">
+                    <div class="d-flex justify-content-around align-items-center mx-auto">
+                        <div class="hart">
+                            <button type="button" class="delet"><i class="fas fa-ban"></i></button>
+                            <button class="heard"><i class="far fa-heart coeur"></i></button>
+                        </div>
+                        <div class="mg">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj71qQaEWb00aCZBENdpOoNi41nVbaBwRbWFHZdOfsy9JLfA2U1g" alt="">
+                        </div>
+                        <div class="parg">
+                            <p class="test">Lorem, ipsum dolor.</p>
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                        <div class="inc-dic">
+                            <button type="button" class="inc"><i class="fas fa-plus-circle"></i></button>
+                            <p>clicks:<strong>0</strong></p>
+                            <button class="nigativ"><i class="fas fa-minus-circle"></i></button>
+                        </div>
+                        <div class="prod"><p>$:<span>430</span></p></div>
+                    </div>
+                </div>
+           </div>
+           <div class=" row col-sm-10 choping mx-auto rounded-lg bg-primary my-2">
+            <div class="col items1">
+                <div class="d-flex justify-content-around align-items-center mx-auto">
+                    <div class="hart">
+                        <button type="button" class="delet"><i class="fas fa-ban"></i></button>
+                        <button class="heard"><i class="far fa-heart coeur"></i></button>
+                    </div>
+                    <div class="mg">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgStJ69pdDimZZdJSB2muxdkbmvZWV4-hHNczAD-bDxyYpf1Tf" alt="">
+                    </div>
+                    <div class="parg">
+                        <p>Lorem, ipsum dolor.</p>
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                    <div class="inc-dic">
+                        <button type="button" class="inc"><i class="fas fa-plus-circle"></i></button>
+                        <p>clicks:<strong>0</strong></p>
+                        <button class="nigativ"><i class="fas fa-minus-circle"></i></button>
+                    </div>
+                    <div class="prod">
+                        <p>$:<span>540</span></p>
+                    </div>
+                </div>
+            </div>
+       </div>
+       <div class=" row col-sm-10 choping mx-auto rounded-lg bg-primary my-2">
+        <div class="col items1">
+            <div class="d-flex justify-content-around align-items-center mx-auto">
+                <div class="hart">
+                    <button type="button" class="delet"><i class="fas fa-ban"></i></button>
+                    <button class="heard"><i class="far fa-heart coeur"></i></button>
+                </div>
+                <div class="mg">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL_dmcyMLsDX5XzErSIEDX8xbyAU7MgRQgMMiQUZxud6zzzw1_" alt="">
+                </div>
+                <div class="parg">
+                    <p>Lorem, ipsum dolor.</p>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+                <div class="inc-dic">
+                    <button type="button" class="inc"><i class="fas fa-plus-circle "></i></button>
+                    <p>clicks:<strong>0</strong></p>
+                    <button class="nigativ"><i class="fas fa-minus-circle"></i></button>
+                </div>
+                <div class="prod"><p>$:<span>520</span></p></div>
+            </div>
+        </div>
+   </div>
+
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/2407ae1cf9.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
